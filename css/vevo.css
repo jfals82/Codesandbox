@@ -1,0 +1,35 @@
+body {
+  overflow-x: hidden;
+}
+
+.home-intro {
+  position: relative !important;
+  transition: 200ms;
+  height: 300vh;
+}
+
+.home-intro-wrapper {
+}
+
+.home-intro-wrapper > div {
+  position: sticky;
+  transform: translateY(100vh);
+  transition: 1000ms;
+}
+
+.home-intro-wrapper > div:nth-child(1) {
+  top: 30vh;
+}
+.home-intro-wrapper > div:nth-child(2) {
+  top: 40vh;
+}
+.home-intro-wrapper > div:nth-child(3) {
+  top: 50vh;
+}
+.home-intro---skip {
+  position: fixed !important;
+  top: calc(100vh - 90px);
+  left: 50%;
+  transform: translate(-50%, 0) !important;
+  height: 30px;
+}
